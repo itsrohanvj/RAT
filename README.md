@@ -1,6 +1,7 @@
 # RAT
 ## Advanced Client - Server connection, Get full access of Client's computer with backdoor.
 ### Follow the steps below for implementing Backdoor:
+
 Note: both the codes are in python 2. Some functions like JSON wont work in python 3 properly until & uncless JSON decode error is resolved, so it is recommended to use python 2.
 Make sure all the libraries are installed or you can install them by pip install <library name>
 All the functions inside code are self explanatory.
