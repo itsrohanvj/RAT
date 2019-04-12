@@ -13,3 +13,5 @@ Do not use reserved port nos.
 The if else part in the code is for multiple connectivity.
 if you want to connect to mutiple clients then you can switch to them by selecting different values.
 for eg: 1 for listerning in port 4444. 2 for 4445 etc.
+
+#### Note: this works only on windows and its undetectable by almost many antivirus.
