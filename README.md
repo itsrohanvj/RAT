@@ -16,3 +16,12 @@ if you want to connect to mutiple clients then you can switch to them by selecti
 for eg: 1 for listerning in port 4444. 2 for 4445 etc.
 
 #### Note: this works only on windows and its undetectable by almost many antivirus.
+
+### .PY to .EXE
+
+module required: pyinstaller.
+open command prompt, type pyinstaller yourfilenamewith extension --onefile
+eg: pyinstaller backdoor.py --onefile
+
+A 'dist' named folder will be created and you will find your exe file inside it.
+
