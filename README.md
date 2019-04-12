@@ -17,7 +17,7 @@ for eg: 1 for listerning in port 4444. 2 for 4445 etc.
 
 #### Note: this works only on windows and its undetectable by almost many antivirus.
 
-### .PY to .EXE
+### .PY to .EXE - converting .py file to .exe( runs on any windows , doesn't require python)
 
 module required: pyinstaller.
 open command prompt, type pyinstaller yourfilenamewith extension --onefile
