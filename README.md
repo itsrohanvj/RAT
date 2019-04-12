@@ -7,7 +7,7 @@ All the functions inside code are self explanatory.
 the lines: The_program_to_hide = win32gui.GetForegroundWindow() & win32gui.ShowWindow(The_program_to_hide , win32con.SW_HIDE) is used to hide the window.
 Make sure you use correct ip address and port no.
 
-###For Listener.
+### For Listener.
 the IP address must be same as of hosting server ip or the ip of computer in which its being executed.
 Do not use reserved port nos.
 
