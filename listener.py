@@ -77,19 +77,19 @@ if __name__ == '__main__':
         try:
             argument = int(raw_input("enter the value "))
             if argument is l[0]:
-                my_listener1 = Listener("134.209.82.16",4444)
+                my_listener1 = Listener("SERVER IP",4444)
                 my_listener1.run()                
                 
             elif argument is l[1]:
-                my_listener2 = Listener("134.209.82.16",4445)
+                my_listener2 = Listener("SERVER IP",4445)
                 my_listener2.run()
                 
             elif argument is l[2]:
-                my_listener3 = Listener("134.209.82.16",4446)   
+                my_listener3 = Listener("SERVER IP",4446)   
                 my_listener3.run()
               
             elif argument is l[3]:
-                my_listener4 = Listener("134.209.82.16",4447)
+                my_listener4 = Listener("SERVER IP",4447)
                 my_listener4.run()
     
             elif argument not in l:
