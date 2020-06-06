@@ -9,7 +9,7 @@ You can upload any file from your computer to Victim's computer.
 You can also download the file from Victim's computer to your computer.
 You can run all cmd commands.
 
-### Note: both the codes are in python 2. Some functions like JSON wont work in python 3 properly until & uncless JSON decode error is resolved, so it is recommended to use python 2.
+#### Note: both the codes are in python 2. Some functions like JSON wont work in python 3 properly until & unless JSON decode error is resolved, so it is recommended to use python 2.
 Make sure all the libraries are installed or you can install them by pip install <library name>
 All the functions inside code are self explanatory.
 the lines: The_program_to_hide = win32gui.GetForegroundWindow() & win32gui.ShowWindow(The_program_to_hide , win32con.SW_HIDE) is used to hide the window.
