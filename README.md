@@ -33,6 +33,6 @@ eg: pyinstaller backdoor.py --onefile
 A 'dist' named folder will be created and you will find your exe file inside it.
 
 
-### NOTE: PLEASE USE THIS FOR ETHICAL PURPOSE.
+#### NOTE: PLEASE USE THIS FOR ETHICAL PURPOSE.
 
 
